@@ -1,3 +1,3 @@
-# Neural Networks and Fuzzy Logic 2020-21
+# Neural Networks and Fuzzy Logic 2021-22
 
 Projects portal.
