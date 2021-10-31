@@ -1,0 +1,27 @@
+---
+layout: post
+author:
+  name: Paper ID 41
+  difficulty: Difficulty - Hard
+share: true
+title: Multiagent Cooperation and Competition with Deep Reinforcement Learning
+categories:
+- Reinforcement Learning
+- hard
+tags: []
+---
+**Abstract** - Multiagent systems appear in most social, economical, and political situations. In
+the present work we extend the Deep Q-Learning Network architecture proposed
+by Google DeepMind to multiagent environments and investigate how two agents
+controlled by independent Deep Q-Networks interact in the classic videogame
+Pong. By manipulating the classical rewarding scheme of Pong we demonstrate
+how competitive and collaborative behaviors emerge. Competitive agents learn to
+play and score efficiently. Agents trained under collaborative rewarding schemes
+find an optimal strategy to keep the ball in the game as long as possible. We
+also describe the progression from competitive to collaborative behavior. The
+present work demonstrates that Deep Q-Networks can become a practical tool for
+studying the decentralized learning of multiagent systems living in highly complex
+environments.
+**Paper** - [https://arxiv.org/pdf/1511.08779.pdf](https://arxiv.org/pdf/1511.08779.pdf)
+**Dataset -** [https://github.com/mgbellemare/arcade-learning-environment#openai-gym](https://github.com/mgbellemare/arcade-learning-environment#openai-gym)
+    
