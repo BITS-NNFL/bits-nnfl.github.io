@@ -1,0 +1,13 @@
+---
+- title: Instructions
+  url: "/"
+- title: Resources
+  url: "/resources/"
+- title: All Papers
+  url: "/posts/"
+- title: Papers By Categories
+  url: "/categories/"
+- title: Search
+  url: "/search/"
+- title: Contact us
+  url : "/contacts/"
