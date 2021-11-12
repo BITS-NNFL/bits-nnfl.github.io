@@ -3,7 +3,7 @@ locale: en-US
 title: "Neural Networks & Fuzzy Logic"
 description: "Papers Portal."
 baseurl: "/"
-url: "https://bitsnnfl2021.github.io"
+url: "https://bits-nnfl.github.io"
 logo:
 date_format: "%B %-d, %Y"
 read_time: false
