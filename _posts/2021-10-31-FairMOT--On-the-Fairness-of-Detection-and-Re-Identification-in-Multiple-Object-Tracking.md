@@ -1,17 +1,17 @@
 ---
 layout: post
 author:
-  name: Paper ID 7
+  name: Paper ID 58
   difficulty: Difficulty - Hard
 share: true
 title: FairMOT- On the Fairness of Detection and Re-Identification in Multiple Object Tracking
 categories:
-- CV
-- NN
+- Computer Vision; Object tracking
 - hard
 tags: []
 ---
-**Abstract** - There has been remarkable progress on object detection and re-identification (re-ID) in recent years which are the key components of multi-object tracking. However, little attention has been focused on jointly accomplishing the two tasks in a single network. Our study shows that the previous attempts ended up with degraded accuracy mainly because the re-ID task is not fairly learned which causes many identity switches. The unfairness lies in two-fold: (1) they treat re-ID as a secondary task whose accuracy heavily depends on the primary detection task. So training is largely biased to the detection task but ignores the re-ID task; (2) they use ROI-Align to extract re-ID features which is directly borrowed from object detection. However, this introduces a lot of ambiguity in characterizing objects because many sampling points may belong to disturbing instances or background. To solve the problems, we present a simple approach \emph{FairMOT} which consists of two homogeneous branches to predict pixel-wise objectness scores and re-ID features. The achieved fairness between the tasks allows \emph{FairMOT} to obtain high levels of detection and tracking accuracy and outperform previous state-of-the-arts by a large margin on several public datasets. The source code and pre-trained models are released at this https URL.
+**Abstract** - Multi-object tracking (MOT) is an important problem in computer vision which has a wide range of applications. Formulating MOT as multi-task learning of object detection and re-ID in a single network is appealing since it allows joint optimization of the two tasks and enjoys high computation efficiency. However, we find that the two tasks tend to compete with each other which need to be carefully addressed. In particular, previous works usually treat re-ID as a secondary task whose accuracy is heavily affected by the primary detection task. As a result, the network is biased to the primary detection task which is not fair to the re-ID task. To solve the problem, we present a simple yet effective approach termed as FairMOT based on the anchor-free object detection architecture CenterNet. Note that it is not a naive combination of CenterNet and re-ID. Instead, we present a bunch of detailed designs which are critical to achieve good tracking results by thorough empirical studies. The resulting approach achieves high accuracy for both detection and tracking. The approach outperforms the state-of-the-art methods by a large margin on several public datasets. The source code and pre-trained models are released at https://github.com/ifzhang/FairMOT.
 **Paper** - [https://arxiv.org/abs/2004.01888](https://arxiv.org/abs/2004.01888)
-**Dataset -** [https://motchallenge.net/](https://motchallenge.net/)
+**Code** - [https://github.com/ifzhang/FairMOT](https://github.com/ifzhang/FairMOT)
+**Dataset -** [https://cocodataset.org/#home](https://cocodataset.org/#home)
     

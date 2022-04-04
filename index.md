@@ -9,7 +9,7 @@ entries_layout: list
 ---
 ## NNFL Research Paper Assignment
 
-* There are a list of 61 papers updated on this website
+* There are a list of 82 papers updated on this website
 * You can search for papers, or view them by category, based on the tags assigned to each paper
 * Each paper has an ID and a difficulty level mentioned with it
 * You need to form of groups of **3** people for this assignment
@@ -18,7 +18,7 @@ entries_layout: list
 #### What is to be done
 
 * Once your group is formed, go through the list of papers and choose your top 5 preferences
-* We will email a preference form for reserch paper selection
+* We will email a preference form for research paper selection
 * You will have to fill the names and IDs of your group (only one member needs to do this), and your 5 paper preferences (paper IDs)
 
 #### Points to keep in mind

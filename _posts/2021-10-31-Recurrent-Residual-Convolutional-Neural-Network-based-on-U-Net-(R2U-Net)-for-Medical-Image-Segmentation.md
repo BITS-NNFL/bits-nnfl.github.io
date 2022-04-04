@@ -1,0 +1,18 @@
+---
+layout: post
+author:
+  name: Paper ID 27
+  difficulty: Difficulty - Easy
+share: true
+title: Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation
+categories:
+- U-Net
+- CV
+- easy
+tags: []
+---
+**Abstract** - Deep learning (DL) based semantic segmentation methods have been providing state-of-the-art performance in the last few years. More specifically, these techniques have been successfully applied to medical image classification, segmentation, and detection tasks. One deep learning technique, U-Net, has become one of the most popular for these applications. In this paper, we propose a Recurrent Convolutional Neural Network (RCNN) based on U-Net as well as a Recurrent Residual Convolutional Neural Network (RRCNN) based on U-Net models, which are named RU-Net and R2U-Net respectively. The proposed models utilize the power of U-Net, Residual Network, as well as RCNN. There are several advantages of these proposed architectures for segmentation tasks. First, a residual unit helps when training deep architecture. Second, feature accumulation with recurrent residual convolutional layers ensures better feature representation for segmentation tasks. Third, it allows us to design better U-Net architecture with same number of network parameters with better performance for medical image segmentation. The proposed models are tested on three benchmark datasets such as blood vessel segmentation in retina images, skin cancer segmentation, and lung lesion segmentation. The experimental results show superior performance on segmentation tasks compared to equivalent models including UNet and residual U-Net (ResU-Net).
+**Paper** - [https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)
+**Code** - [https://github.com/LeeJunHyun/Image_Segmentation](https://github.com/LeeJunHyun/Image_Segmentation)
+**Dataset -** [https://challenge2018.isic-archive.com/task1/training/](https://challenge2018.isic-archive.com/task1/training/)
+    
